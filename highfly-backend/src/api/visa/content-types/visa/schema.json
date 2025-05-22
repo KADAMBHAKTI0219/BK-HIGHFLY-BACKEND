@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "visas",
+  "info": {
+    "singularName": "visa",
+    "pluralName": "visas",
+    "displayName": "Visa"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "details": {
+      "type": "text"
+    },
+    "checklist": {
+      "type": "json"
+    },
+    "documents": {
+      "type": "json"
+    }
+  }
+}
